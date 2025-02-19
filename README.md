@@ -28,8 +28,8 @@ que nenhum problema ocorrerá, visto que o código foi testado para todos os out
 # 1.2 d) Consider the class BoundedSetOfNaturals and its expected contract. Are there more unit test are worth writing for proper validation of BoundedSetOfNaturals?
 
 
--🔹 Adição de elementos válidos → Testar se é possível adicionar números dentro do limite.
--🔹 Verificação de tamanho (size()) → O tamanho deve ser atualizado corretamente ao adicionar/remover elementos.
--🔹 Tentativa de adicionar números duplicados → A classe permite ou bloqueia quando temos valores duplicados?
--🔹 Adicionar mais elementos do que o limite → O que acontece quando o limite é atingido?
--🔹 Adicionar números negativos ou inválidos → A classe aceita apenas números naturais?
+🔹 Adição de elementos válidos → Testar se é possível adicionar números dentro do limite.
+🔹 Verificação de tamanho (size()) → O tamanho deve ser atualizado corretamente ao adicionar/remover elementos.
+🔹 Tentativa de adicionar números duplicados → A classe permite ou bloqueia quando temos valores duplicados?
+🔹 Adicionar mais elementos do que o limite → O que acontece quando o limite é atingido?
+🔹 Adicionar números negativos ou inválidos → A classe aceita apenas números naturais?
