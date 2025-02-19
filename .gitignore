@@ -1,0 +1,39 @@
+# Diretório de build do Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+
+# Diretório local do Maven
+.m2/
+
+# Arquivos compilados Java
+*.class
+
+# Configurações do IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+
+# Configurações do VS Code
+.vscode/
+
+# Arquivos de logs
+logs/
+*.log
+*.out
+
+# Arquivos temporários do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Relatórios de testes e arquivos do Maven Surefire
+surefire-reports/
+test-output/
+
+# Arquivos de status do Maven
+.mvn/
+createdFiles.lst
+inputFiles.lst
