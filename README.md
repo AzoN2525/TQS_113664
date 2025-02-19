@@ -33,3 +33,7 @@ que nenhum problema ocorrerá, visto que o código foi testado para todos os out
 🔹 Tentativa de adicionar números duplicados → A classe permite ou bloqueia quando temos valores duplicados?
 🔹 Adicionar mais elementos do que o limite → O que acontece quando o limite é atingido?
 🔹 Adicionar números negativos ou inválidos → A classe aceita apenas números naturais?
+
+
+
+FIX 
