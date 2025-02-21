@@ -36,4 +36,8 @@ que nenhum problema ocorrerá, visto que o código foi testado para todos os out
 
 
 
-FIX 
+# 1.2 e) Run Jacoco coverage analysis and compare with previous results. In particular, compare the “before” and “after” coverage for the BoundedSetOfNaturals class.
+
+![alt text](image-1.png)
+
+# 1.2 f) Add a rule in Jacoco (i.e., in your pom.xml file) to assure a minimum of 90% line coverage for every class, except test classes
