@@ -55,7 +55,7 @@ public class StockPortfolioTest {
         // Load the mock with the proper expectations
         when(stockMarket.lookUpPrice("EBAY")).thenReturn(4.0);
         when(stockMarket.lookUpPrice("MSFT")).thenReturn(3.0);
-        when(stockMarket.lookUpPrice("GOOGL")).thenReturn(5.0);  // Will not be used
+        when(stockMarket.lookUpPrice("GOOGL")).thenReturn(5.0);
 
         // Execute the tested method
         portfolio.addStock(new Stock("EBAY", 2));
