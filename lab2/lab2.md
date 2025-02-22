@@ -18,4 +18,4 @@
 
 
 ## 2.1 f) Write tests for the new code yourself.
-![alt text](images/image-2.png)
+![alt text](images/image-5.png)
