@@ -1,6 +1,7 @@
 package com.example;
 
 import java.util.List;
+import java.io.IOException;
 import java.util.ArrayList;
 
 public class ProductFinderService {
@@ -13,7 +14,7 @@ public class ProductFinderService {
     }
 
 
-    public List<Product> findProductDetails(Integer ID) {
+    public List<Product> findProductDetails(Integer ID) throws IOException {
 
         if(ID == null || ID < 0){
             return new ArrayList<>();

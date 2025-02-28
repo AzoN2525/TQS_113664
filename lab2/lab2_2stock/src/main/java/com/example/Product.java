@@ -1,7 +1,11 @@
 package com.example;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
+
+
+@JsonIgnoreProperties(ignoreUnknown = true) // Ignora campos desconhecidos no JSON
 public class Product {
 
     private Integer id;

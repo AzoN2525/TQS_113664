@@ -11,6 +11,7 @@ import org.mockito.junit.jupiter.MockitoExtension;
 import static org.junit.jupiter.api.Assertions.*;
 import static org.mockito.Mockito.*;
 
+import java.io.IOException;
 import java.util.List;
 
 @ExtendWith(MockitoExtension.class)
@@ -23,7 +24,7 @@ class ProductFinderServiceTest {
     private ProductFinderService service; // Injeta o mock no serviço
 
     @Test
-    void testFindProductDetails_ValidId() {
+    void testFindProductDetails_ValidId() throws IOException {
         // Simula uma resposta JSON da API
         String fakeJsonResponse = """
         {
@@ -60,7 +61,7 @@ class ProductFinderServiceTest {
     }
 
     @Test
-    void testFindProductDetails_InvalidId() {
+    void testFindProductDetails_InvalidId() throws IOException {
         // Simula que a API retorna uma string vazia para um ID inexistente
         when(httpClient.doHttpGet("https://fakestoreapi.com/products/300")).thenReturn("");
 
