@@ -1,0 +1,23 @@
+sqp_7ee4809edaccda94ed38b363e46ae94650ea3706
+
+
+
+mvn clean verify sonar:sonar \
+  -Dsonar.projectKey=euromillions \
+  -Dsonar.projectName='euromillions' \
+  -Dsonar.host.url=http://127.0.0.1:9000 \
+  -Dsonar.token=sqp_7ee4809edaccda94ed38b363e46ae94650ea3706
+
+
+
+
+
+
+
+sqp_bbcdbbe50880f176c9efa15adb2c9c54f1699abb
+
+mvn clean verify sonar:sonar \
+  -Dsonar.projectKey=cars \
+  -Dsonar.projectName='cars' \
+  -Dsonar.host.url=http://localhost:9000 \
+  -Dsonar.token=sqp_bbcdbbe50880f176c9efa15adb2c9c54f1699abb
